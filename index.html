@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/skills.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -23,9 +24,9 @@
       <a class="brand" href="#accueil" aria-label="Sam, accueil"><span class="brand-mark">C<span>M</span></span><span>Community Manager</span></a>
       <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="main-nav" aria-label="Navigation principale">
-        <a class="active" href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+        <a class="active" href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#competences">Compétences</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
       </nav>
-      <a class="button button-small nav-cta" href="#contact">Travaillons ensemble <span>→</span></a>
+      <a class="button button-small nav-cta" href="#contact">Travaillons ensemble</a>
     </div>
   </header>
 
@@ -36,25 +37,40 @@
         <p class="eyebrow">Community Manager</p>
         <h1>Je crée des communautés<br><span>engagées et des marques</span><br>qui se démarquent.</h1>
         <p class="hero-copy">Graphiste freelance, j'ai développé des compétences solides en création de visuels et en stratégie de communication. Mon objectif est de contribuer à des projets innovants tout en mettant à profit ma créativité et mon sens du détail.</p>
-        <div class="hero-actions"><a class="button" href="#services">Découvrir mes services <span>→</span></a><a class="button button-outline" href="#portfolio"><span>▣</span> Voir mon portfolio</a></div>
-        <div class="social-links" aria-label="Réseaux sociaux"><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="LinkedIn">in</a><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="X">𝕏</a><a href="#contact" aria-label="TikTok">♪</a><a href="#contact" aria-label="YouTube">▶</a></div>
+        <div class="hero-actions"><a class="button" href="#services">Découvrir mes services</a><a class="button button-outline" href="#portfolio">Voir mon portfolio</a></div>
+        <div class="social-links" aria-label="Réseaux sociaux">
+          <a href="#contact" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="social-dot" cx="18" cy="6" r="1"/></svg></a>
+          <a href="#contact" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.4H2.1V22h3.1V8.4ZM3.7 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6ZM22 13.6c0-4.1-2.2-6-5.1-6a4.4 4.4 0 0 0-3.9 2.1V8.4H9.9V22H13v-7.1c0-1.9.4-3.7 2.7-3.7s2.4 2.1 2.4 3.8V22h3.1l.8-8.4Z"/></svg></a>
+          <a href="#contact" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.6 22v-8.7h2.9l.4-3.4h-3.3V7.7c0-1 .3-1.7 1.7-1.7H17V3a20 20 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.7H7.5v3.4h2.8V22h3.3Z"/></svg></a>
+          <a href="#contact" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.2l-4.9-7.1L5.9 22H2.8L10 13.7 2.4 2h6.4l4.4 6.6L18.9 2Zm-1.1 18h1.7L7.8 3.9H6L17.8 20Z"/></svg></a>
+          <a href="#contact" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 7.1a6 6 0 0 1-3.7-1.3v8.4a6.2 6.2 0 1 1-5.4-6.1v3.2a3.1 3.1 0 1 0 2.3 3V2h3.2c.2 2 1.5 3.5 3.6 3.9v3.2Z"/></svg></a>
+          <a href="#contact" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"/></svg></a>
+        </div>
       </div>
     </section>
 
     <section class="about section" id="apropos">
       <div class="container about-grid">
         <div class="portrait-wrap"><div class="portrait-back"></div><img class="portrait-photo" src="images/portrait-placeholder.png" alt="Portrait de Sam Pédanou"><div class="portrait-note">TCHOKOSSI Eronda Sam</div></div>
-        <div class="about-text"><p class="section-label">À propos de moi</p><h2>Une passion : le digital<br>au service des marques</h2><p>Je suis community manager, créateur de contenu et stratège digital. J’accompagne les entreprises dans la gestion de leur présence sur les réseaux sociaux, en créant du contenu authentique, engageant et adapté à leur audience.</p><div class="qualities"><div><span class="quality-icon">✧</span><b>Créatif</b><small>et réactif</small></div><div><span class="quality-icon">♧</span><b>À l’écoute</b><small>des besoins</small></div><div><span class="quality-icon">▣</span><b>Orienté</b><small>résultats</small></div></div></div>
-        <aside class="stats"><div><span>♧</span><p><b>+3 ans</b><small>d’expérience</small></p></div><div><span>♧</span><p><b>Plus de 20</b><small>projets réalisés</small></p></div></aside>
+        <div class="about-text"><p class="section-label">À propos de moi</p><h2>Une passion : le digital<br>au service des marques</h2><p>Je suis community manager, créateur de contenu et stratège digital. J’accompagne les entreprises dans la gestion de leur présence sur les réseaux sociaux, en créant du contenu authentique, engageant et adapté à leur audience.</p><div class="qualities"><div><b>Créatif</b><small>et réactif</small></div><div><b>À l’écoute</b><small>des besoins</small></div><div><b>Orienté résultats</b><small>dans chaque mission</small></div></div></div>
+        <aside class="stats"><div><p><b>+3 ans</b><small>d’expérience</small></p></div><div><p><b>Plus de 20</b><small>projets réalisés</small></p></div></aside>
       </div>
     </section>
 
     <section class="services section" id="services"><div class="container"><p class="section-label">Mes services</p><h2>Des solutions digitales adaptées à vos objectifs</h2><p class="section-intro">Je vous accompagne à chaque étape de votre communication digitale, de la stratégie<br class="desktop-only"> à la création, pour des résultats concrets et mesurables.</p><div class="service-grid">
-      <article class="service-card"><span class="service-icon">◎</span><h3>Stratégie digitale</h3><ul><li>Audit des réseaux sociaux</li><li>Stratégie de contenu</li><li>Plan de communication</li></ul></article>
-      <article class="service-card"><span class="service-icon">✎</span><h3>Création de contenu</h3><ul><li>Visuels (design graphique)</li><li>Vidéos courtes (Reels, TikTok)</li><li>Rédaction de posts</li></ul></article>
-      <article class="service-card"><span class="service-icon">▦</span><h3>Gestion des réseaux sociaux</h3><ul><li>Programmation des contenus</li><li>Animation de communauté</li><li>Modération des commentaires</li></ul></article>
-      <article class="service-card"><span class="service-icon">♧</span><h3>Publicité en ligne</h3><ul><li>Campagnes Meta Ads</li><li>Ciblage d’audience</li><li>Suivi et optimisation</li></ul></article>
-      <article class="service-card"><span class="service-icon">▥</span><h3>Analyse &amp; reporting</h3><ul><li>Suivi des performances</li><li>Rapports mensuels</li><li>Recommandations</li></ul></article>
+      <article class="service-card"><h3>Stratégie digitale</h3><ul><li>Audit des réseaux sociaux</li><li>Stratégie de contenu</li><li>Plan de communication</li></ul></article>
+      <article class="service-card"><h3>Création de contenu</h3><ul><li>Visuels (design graphique)</li><li>Vidéos courtes (Reels, TikTok)</li><li>Rédaction de posts</li></ul></article>
+      <article class="service-card"><h3>Gestion des réseaux sociaux</h3><ul><li>Programmation des contenus</li><li>Animation de communauté</li><li>Modération des commentaires</li></ul></article>
+      <article class="service-card"><h3>Publicité en ligne</h3><ul><li>Campagnes Meta Ads</li><li>Ciblage d’audience</li><li>Suivi et optimisation</li></ul></article>
+      <article class="service-card"><h3>Analyse &amp; reporting</h3><ul><li>Suivi des performances</li><li>Rapports mensuels</li><li>Recommandations</li></ul></article>
+    </div></div></section>
+
+    <section class="skills section" id="competences"><div class="container"><p class="section-label">Compétences</p><h2>Outils maîtrisés</h2><div class="skills-grid">
+      <article class="skill-card"><svg class="skill-logo office-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#f25022" d="M3 7h18v15H3z"/><path fill="#7fba00" d="M24 7h21v15H24z"/><path fill="#00a4ef" d="M3 25h18v16H3z"/><path fill="#ffb900" d="M24 25h21v16H24z"/></svg><h3>Microsoft Office</h3></article>
+      <article class="skill-card"><svg class="skill-logo canva-logo" viewBox="0 0 120 48" aria-hidden="true"><text x="4" y="36" font-family="cursive" font-size="39" font-style="italic" font-weight="700" fill="#1688b8">Canva</text></svg><h3>Canva</h3></article>
+      <article class="skill-card"><svg class="skill-logo adobe-logo ps-logo" viewBox="0 0 48 48" aria-hidden="true"><rect x="1" y="1" width="46" height="46" rx="5"/><text x="5" y="34" font-family="Arial,sans-serif" font-size="25" font-weight="600">Ps</text></svg><h3>Photoshop</h3></article>
+      <article class="skill-card"><svg class="skill-logo adobe-logo ai-logo" viewBox="0 0 48 48" aria-hidden="true"><rect x="1" y="1" width="46" height="46" rx="5"/><text x="5" y="34" font-family="Arial,sans-serif" font-size="24" font-weight="600">Ai</text></svg><h3>Adobe Illustrator</h3></article>
+      <article class="skill-card"><svg class="skill-logo adobe-logo id-logo" viewBox="0 0 48 48" aria-hidden="true"><rect x="1" y="1" width="46" height="46" rx="5"/><text x="5" y="34" font-family="Arial,sans-serif" font-size="24" font-weight="600">Id</text></svg><h3>InDesign</h3></article>
     </div></div></section>
 
     <section class="portfolio section" id="portfolio"><div class="container"><div class="section-heading"><div><p class="section-label">Mon portfolio</p><h2>Des projets qui parlent pour moi</h2></div></div><div class="project-grid">
@@ -69,9 +85,9 @@ G'nantin by nini</p></div></article>
       <article class="project-card"><div class="project-body"><h3>Community Manager — NextGen</h3><p>Développement de la communauté et création de contenus éducatifs pour une offre de formation en ligne.</p></div></article>
     </div></div></section>
 
-    <section class="contact section" id="contact"><div class="container contact-grid"><div><p class="section-label">Contact</p><h2>Discutons de votre projet</h2><p>Vous avez une idée ? Un projet en tête ? Je suis disponible pour en discuter et vous proposer une solution adaptée à vos besoins.</p></div><div class="contact-details"><a href="mailto:samtchokossi1@gmail.com"><span>✉</span> samtchokossi1@gmail.com</a><a href="tel:+22890123456"><span>⌕</span> +228 70 41 52 46</a><p><span>♧</span> Lomé, Togo</p></div><a class="button contact-button" href="mailto:samtchokossi1@gmail.com?subject=Discutons%20de%20votre%20projet">Envoyer un message <span>→</span></a></div></section>
+    <section class="contact section" id="contact"><div class="container contact-grid"><div><p class="section-label">Contact</p><h2>Discutons de votre projet</h2><p>Vous avez une idée ? Un projet en tête ? Je suis disponible pour en discuter et vous proposer une solution adaptée à vos besoins.</p></div><div class="contact-details"><a href="mailto:samtchokossi1@gmail.com">E-mail : samtchokossi1@gmail.com</a><a href="tel:+22890123456">Téléphone : +228 70 41 52 46</a><p>Lomé, Togo</p></div><a class="button contact-button" href="mailto:samtchokossi1@gmail.com?subject=Discutons%20de%20votre%20projet">Envoyer un message</a></div></section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#accueil"><span class="brand-mark">C<span>M</span></span><span>Community Manager</span></a><nav aria-label="Navigation pied de page"><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav><div class="footer-social"><a href="#contact">◎</a><a href="#contact">in</a><a href="#contact">f</a><a href="#contact">𝕏</a><a href="#contact">♪</a></div><small>© 2025. Tous droits réservés.</small></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#accueil"><span class="brand-mark">C<span>M</span></span><span>Community Manager</span></a><nav aria-label="Navigation pied de page"><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#services">Services</a><a href="#competences">Compétences</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav><small>© 2025. Tous droits réservés.</small></div></footer>
   <script src="js/menu.js"></script>
 </body>
 </html>

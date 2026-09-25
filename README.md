@@ -1,4 +1,4 @@
-# Portfolio Community Manager
+﻿# Portfolio — Graphiste Designer & Communication Digitale
 
 Le site est une page unique : ouvrez `index.html`. Les liens du menu font défiler vers les sections Accueil, À propos, Services, Compétences, Portfolio et Contact.
 
